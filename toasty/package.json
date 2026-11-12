@@ -1,0 +1,12 @@
+{
+  "name": "toasty-happy-hum",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs",
+    "test-frames": "node render.mjs --test"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.17.0"
+  }
+}
